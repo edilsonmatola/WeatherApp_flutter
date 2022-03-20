@@ -18,7 +18,7 @@ class Weather {
         temp: json['the_temp'] as double,
       );
 
-        @override
+  @override
   String toString() => '''
 Current Temp: ${temp.toStringAsFixed(0)}॰C
 Condition:    $weatherState

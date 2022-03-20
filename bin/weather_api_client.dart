@@ -29,12 +29,14 @@ class WeatherApiClient {
     final weatherUrl = Uri.parse('$baseUrl/location/$locationId');
     final weatherResponse = await http.get(weatherUrl);
     if (weatherResponse.statusCode != 200) {
-      throw WeatherApiException('Error getting weather for location: $locationId');
+      throw WeatherApiException(
+          'Error getting weather for location: $locationId');
     }
     final weatherJson = jsonDecode(weatherResponse.body);
     final consolidatedWeather = weatherJson['consolidated_weather'] as List;
     if (consolidatedWeather.isEmpty) {
-      throw WeatherApiException('Weather data not available for locationId: $locationId');
+      throw WeatherApiException(
+          'Weather data not available for locationId: $locationId');
     }
     return Weather.fromJson(consolidatedWeather[0]);
   }
