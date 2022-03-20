@@ -20,6 +20,6 @@ Um aplicativo de linha de comando que busca informações meteorológicas usando
 dart bin/main.dart "nome-da-cidade"
 ```
 
-Substitua o "nome da cidade", por exemplo, **dart bin/main.dart durban**
+Substitua o "nome-da-cidade", por exemplo, **dart bin/main.dart durban**
 
 Visite o site [MetaWeather](https://www.metaweather.com/) para obter mais informações.
