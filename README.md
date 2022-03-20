@@ -10,6 +10,8 @@
 
 # Weather App
 
+![metaweather-app-preview](./media/metaweather-app-preview.png)
+
 A command line app that fetchs weather information using MetaWeather API.
 
 ### To run the app, simply write the following command:
