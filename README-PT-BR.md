@@ -10,6 +10,8 @@
 
 # Weather App
 
+![metaweather-app-preview](./media/metaweather-app-preview.png)
+
 Um aplicativo de linha de comando que busca informações meteorológicas usando a API do MetaWeather.
 
 ### Para executar o aplicativo, basta escrever o seguinte comando:
